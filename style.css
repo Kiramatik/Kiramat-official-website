@@ -1,0 +1,102 @@
+html {
+  background-image: linear-gradient(to bottom left, violet, black);
+}
+
+article {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.search {
+  margin-top: 35px;
+  padding: 10px 2000px 10px 10px;
+  background-color: black;
+  color: blueviolet;
+  border-radius: 20px;
+  border: 2px solid blueviolet;
+}
+
+.search:focus {
+  border: 2px solid aquamarine;
+}
+
+.search:hover {
+  background-color: rgb(26, 24, 24);
+  border: 2px solid rgb(159, 90, 224);
+}
+
+.head__text {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.list {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 100px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.li1 {
+  border: 3px solid black;
+  border-radius: 25px;
+  padding: 15px 15px 15px 15px;
+  height: 400px;
+  width: 500px;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.li1:hover {
+  background-color: black;
+  border: 2px solid blueviolet;
+  color: blueviolet;
+}
+
+.li1__title {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  width: 160px;
+  margin-bottom: 10px;
+}
+
+.li1__title:hover {
+  background-color: black;
+  border: 2px solid aqua;
+  color: aqua;
+}
+
+.li2 {
+  border: 3px solid black;
+  border-radius: 25px;
+  padding: 15px 15px 15px 15px;
+  height: 400px;
+  width: 500px;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.li2:hover {
+  background-color: black;
+  border: 2px solid blueviolet;
+  color: blueviolet;
+}
+
+.li2__title {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  width: 160px;
+  margin-bottom: 10px;
+}
+
+.li2__title:hover {
+  background-color: black;
+  border: 2px solid aqua;
+  color: aqua;
+}
